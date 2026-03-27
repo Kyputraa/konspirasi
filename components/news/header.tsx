@@ -22,7 +22,7 @@ export function Header() {
       {/* Top Bar */}
       <div className="bg-primary text-primary-foreground">
         <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between text-sm">
-          <span>Selasa, 27 Mei 2025</span>
+          <span>Selasa, 28 Maret 2026</span>
           <div className="flex items-center gap-4">
             <Link href="#" className="hover:underline">Tentang Kami</Link>
             <Link href="#" className="hover:underline">Kontak</Link>

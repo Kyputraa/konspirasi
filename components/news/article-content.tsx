@@ -36,7 +36,7 @@ export function ArticleContent() {
           </div>
           <div className="flex items-center gap-1">
             <Calendar className="w-4 h-4" />
-            <span>27 Mei 2025</span>
+            <span>28 Maret 2026</span>
           </div>
           <div className="flex items-center gap-1">
             <Clock className="w-4 h-4" />
@@ -61,7 +61,7 @@ export function ArticleContent() {
         {/* Article Content */}
         <div className="prose prose-lg max-w-none text-foreground">
           <p className="text-lg leading-relaxed mb-6">
-            <strong>Jakarta</strong> – Institute of Democracy and Education (IDE) kembali menegaskan komitmennya dalam mendorong reformasi hukum nasional melalui penyelenggaraan diskusi publik bertajuk <em>&quot;Mendorong Reformasi Hukum KUHAP dan Polri&quot;</em> yang berlangsung pada Selasa, 27 Mei 2025, di Caffe Setahun Kemarin, Jakarta Pusat.
+            <strong>Jakarta</strong> – Institute of Democracy and Education (IDE) kembali menegaskan komitmennya dalam mendorong reformasi hukum nasional melalui penyelenggaraan diskusi publik bertajuk <em>&quot;Mendorong Reformasi Hukum KUHAP dan Polri&quot;</em> yang berlangsung pada Selasa, 28 Maret 2026, di Caffe Setahun Kemarin, Jakarta Pusat.
           </p>
 
           <p className="leading-relaxed mb-6">
