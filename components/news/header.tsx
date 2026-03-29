@@ -1,7 +1,7 @@
 "use client"
 
 import { Search, Menu, X } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 
 const navItems = [
@@ -14,104 +14,111 @@ const navItems = [
   { name: "Opini", href: "#" },
 ]
 
+// tanggal sederhana (lebih clean)
+function getDate() {
+  return new Date().toLocaleDateString("id-ID", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  })
+}
+
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [date, setDate] = useState("")
+  const [searchOpen, setSearchOpen] = useState(false)
+
+  useEffect(() => {
+    setDate(getDate())
+  }, [])
 
   return (
-    <header className="bg-card border-b border-border sticky top-0 z-50">
-      {/* Top Bar */}
-      <div className="bg-primary text-primary-foreground">
-        <div className="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between text-sm">
-          <span>Selasa, 28 Maret 2026</span>
-          <div className="flex items-center gap-4">
-            <Link href="#" className="hover:underline">Tentang Kami</Link>
-            <Link href="#" className="hover:underline">Kontak</Link>
+      <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
+
+        {/* BREAKING NEWS TICKER */}
+        <div className="bg-black text-white text-xs overflow-hidden">
+          <div className="flex whitespace-nowrap animate-marquee gap-10 px-4 py-2">
+            <span>🔥 Breaking: Isu politik terbaru hari ini</span>
+            <span>📈 Ekonomi Indonesia mengalami perubahan signifikan</span>
+            <span>🌍 Berita internasional paling hangat</span>
           </div>
         </div>
-      </div>
 
-      {/* Main Header */}
-      <div className="max-w-6xl mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="bg-primary text-primary-foreground font-bold text-2xl px-3 py-1 rounded">
-              K
-            </div>
-            <div>
-              <span className="text-2xl font-bold text-foreground">Konspirasi</span>
-              <span className="text-2xl font-bold text-primary">News</span>
-              <p className="text-xs text-muted-foreground">Portal Berita Independen</p>
-            </div>
+        {/* MAIN HEADER - CENTERED */}
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+
+          {/* LEFT */}
+          <div className="flex items-center gap-3">
+            <button
+                className="md:hidden"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? <X /> : <Menu />}
+            </button>
+            <span className="text-xs text-muted-foreground hidden md:block">
+            {date}
+          </span>
+          </div>
+
+          {/* LOGO CENTER */}
+          <Link href="/" className="text-center">
+            <h1 className="text-2xl md:text-3xl font-black tracking-tight">
+              Konspirasi<span className="text-primary">News</span>
+            </h1>
+            <p className="text-[10px] text-muted-foreground tracking-widest">
+              INDEPENDENT MEDIA
+            </p>
           </Link>
 
-          {/* Search - Desktop */}
-          <div className="hidden md:flex items-center gap-2">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Cari berita..."
-                className="pl-10 pr-4 py-2 border border-border rounded-lg bg-secondary focus:outline-none focus:ring-2 focus:ring-primary/50 w-64"
-              />
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-            </div>
+          {/* RIGHT */}
+          <div className="flex items-center gap-3">
+            <button onClick={() => setSearchOpen(!searchOpen)}>
+              <Search className="w-5 h-5" />
+            </button>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
         </div>
-      </div>
 
-      {/* Navigation */}
-      <nav className="border-t border-border bg-secondary">
-        <div className="max-w-6xl mx-auto px-4">
-          <ul className="hidden md:flex items-center gap-1">
-            {navItems.map((item) => (
-              <li key={item.name}>
-                <Link
-                  href={item.href}
-                  className="block px-4 py-3 text-sm font-medium text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
-                >
-                  {item.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border bg-card">
-          <div className="p-4">
-            <div className="relative mb-4">
+        {/* EXPANDABLE SEARCH */}
+        {searchOpen && (
+            <div className="px-4 pb-4 max-w-6xl mx-auto">
               <input
-                type="text"
-                placeholder="Cari berita..."
-                className="w-full pl-10 pr-4 py-2 border border-border rounded-lg bg-secondary focus:outline-none focus:ring-2 focus:ring-primary/50"
+                  type="text"
+                  placeholder="Cari berita trending..."
+                  className="w-full px-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
               />
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             </div>
-            <ul className="space-y-1">
+        )}
+
+        {/* NAVIGATION */}
+        <nav className="border-t bg-white/80 backdrop-blur">
+          <div className="max-w-6xl mx-auto px-4">
+            <ul className="hidden md:flex justify-center gap-6">
               {navItems.map((item) => (
-                <li key={item.name}>
-                  <Link
-                    href={item.href}
-                    className="block px-4 py-2 text-sm font-medium text-foreground hover:bg-primary hover:text-primary-foreground rounded transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
+                  <li key={item.name}>
+                    <Link
+                        href={item.href}
+                        className="relative py-4 text-sm font-semibold group"
+                    >
+                      {item.name}
+                      <span className="absolute left-0 bottom-2 w-0 h-[2px] bg-primary transition-all group-hover:w-full"></span>
+                    </Link>
+                  </li>
               ))}
             </ul>
           </div>
-        </div>
-      )}
-    </header>
+        </nav>
+
+        {/* MOBILE MENU FULLSCREEN */}
+        {mobileMenuOpen && (
+            <div className="fixed inset-0 bg-black text-white flex flex-col items-center justify-center space-y-6 text-lg z-50">
+              {navItems.map((item) => (
+                  <Link key={item.name} href={item.href}>
+                    {item.name}
+                  </Link>
+              ))}
+            </div>
+        )}
+      </header>
   )
 }

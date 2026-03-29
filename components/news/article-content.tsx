@@ -25,7 +25,7 @@ export function ArticleContent() {
 
         {/* Title */}
         <h1 className="text-2xl lg:text-3xl font-bold text-foreground leading-tight mb-4 text-balance">
-          IDE Komitmen Dorong Sistem Hukum Demokratis melalui Revisi KUHAP dan RUU Polri
+          KADIN Dukung Maksimal Program MBG dan KDKMP: Peluang UMKM Besar, Tantangan Harga dan Implementasi Jadi Sorotan
         </h1>
 
         {/* Meta Info */}
@@ -36,7 +36,7 @@ export function ArticleContent() {
           </div>
           <div className="flex items-center gap-1">
             <Calendar className="w-4 h-4" />
-            <span>28 Maret 2026</span>
+            <span>18 Maret 2026</span>
           </div>
           <div className="flex items-center gap-1">
             <Clock className="w-4 h-4" />
@@ -61,74 +61,26 @@ export function ArticleContent() {
         {/* Article Content */}
         <div className="prose prose-lg max-w-none text-foreground">
           <p className="text-lg leading-relaxed mb-6">
-            <strong>Jakarta</strong> – Institute of Democracy and Education (IDE) kembali menegaskan komitmennya dalam mendorong reformasi hukum nasional melalui penyelenggaraan diskusi publik bertajuk <em>&quot;Mendorong Reformasi Hukum KUHAP dan Polri&quot;</em> yang berlangsung pada Selasa, 28 Maret 2026, di Caffe Setahun Kemarin, Jakarta Pusat.
+            Jakarta, 18 Maret 2026 – Dalam upaya memperkuat ekosistem Usaha Mikro, Kecil, dan Menengah (UMKM) serta koperasi di Indonesia, Kamar Dagang dan Industri (KADIN) memainkan peran sentral dalam program pemerintah Masyarakat Berdaya Gizi (MBG) dan Koperasi Desa Kreatif Mandiri Produktif (KDKMP). Hal ini terungkap dari hasil pertanyaan mendalam terhadap Raden Tedy, Kepala Badan Pengembangan UMKM dan Koperasi KADIN.
+
+            Program MBG, yang dirancang untuk memberdayakan masyarakat melalui aspek gizi dan ekonomi, mendapat mandat khusus dari pemerintah bagi KADIN. Organisasi swasta terbesar ini ditugaskan menyusun acuan Standar Sapras Pendukung Gizi (SSPG) serta Standar Operasional Prosedur (SOP) terkait implementasi MBG. Tujuannya jelas: menciptakan kerangka kerja yang lebih terstruktur, efektif, dan berstandar jelas di tingkat lapangan. Menurut Raden Tedy, penyusunan ini krusial karena program pemerintah sering kali terhambat oleh kurangnya pedoman operasional yang konkret. Dengan SSPG dan SOP, pelaku UMKM diharapkan bisa menjalankan program tanpa kebingungan, sehingga manfaatnya tepat sasaran. Ini bukan sekadar dokumen administratif, melainkan fondasi bagi keberlanjutan program nasional yang melibatkan jutaan pelaku usaha kecil.
+
+            Secara keseluruhan, MBG dinilai memiliki dampak positif signifikan terhadap perkembangan UMKM. Program ini berhasil membuka peluang usaha baru, terutama di sektor pangan dan gizi, yang selama ini jadi tulang punggung ekonomi rakyat. Aktivitas ekonomi di tingkat masyarakat meningkat, dengan UMKM yang ikut serta melaporkan peningkatan omset dan jangkauan pasar. Misalnya, inisiatif distribusi produk gizi sehat melalui jaringan UMKM telah menciptakan rantai pasok baru, di mana pedagang kecil bisa menjual barang bernilai tambah seperti makanan fortifikasi atau produk organik lokal. Dampaknya, tidak hanya UMKM yang untung, tapi juga masyarakat yang mendapat akses lebih baik terhadap nutrisi berkualitas. Raden Tedy menekankan bahwa MBG telah menjadi katalisator pertumbuhan ekonomi bawah, sejalan dengan target pemerintah untuk inklusi finansial UMKM hingga 90% pada 2026.
+
+            Namun, implementasi MBG di lapangan belum sepenuhnya optimal. Ditemukan oknum-oknum tertentu yang memanfaatkan program untuk kepentingan pribadi, seperti penyelewengan dana atau distribusi tidak merata. Faktor ini menjadi penyebab utama berbagai kekurangan, termasuk lambatnya penyerapan anggaran dan ketidakadilan akses bagi UMKM di daerah terpencil. Kekurangan ini bukan hanya menggerus kepercayaan publik, tapi juga menghambat pencapaian target nasional. KADIN, melalui perannya dalam SSPG-SOP, berupaya membersihkan celah ini dengan mekanisme pengawasan yang lebih ketat. Tanpa penanganan tegas, potensi MBG sebagai pendorong ekonomi bisa terbuang sia-sia.
+
+            Salah satu dampak paling nyata dari MBG adalah kenaikan harga bahan pokok penting (bapokting). Lonjakan permintaan (demand) yang signifikan, didorong oleh peningkatan aktivitas UMKM dan konsumsi masyarakat, bertemu dengan ketersediaan pasokan (supply) yang masih terbatas. Komoditas seperti beras, minyak goreng, gula, dan telur mengalami inflasi harga hingga 10-15% di beberapa wilayah, menurut pantauan awal. Kondisi ini dirasakan luas oleh masyarakat, terutama rumah tangga berpenghasilan rendah, yang budget belanja harian terganggu. Fenomena ini mengingatkan pada dinamika pasar klasik: stimulus permintaan tanpa penguatan rantai pasok hanya picu inflasi sementara. Pemerintah dan KADIN perlu intervensi cepat, seperti diversifikasi sumber pasok impor atau subsidi targeted, agar manfaat MBG tak berbalik jadi beban sosial.
+            Selain MBG, program KDKMP menjadi perhatian utama pemerintah untuk revitalisasi koperasi desa. Kementerian Pertahanan (Kemhan) melakukan rekrutmen besar-besaran sebanyak 30.000 orang sebagai pendamping KDKMP di seluruh Indonesia. Angka ini menunjukkan komitmen nasional untuk menjangkau ribuan desa, dari Sabang hingga Merauke. KADIN merespons dengan membentuk Satuan Tugas (Satgas) KDKMP, yang bertugas koordinasi dan pendampingan langsung di daerah. Peran ini strategis, karena KADIN punya jaringan luas dengan pelaku usaha, memastikan program tak hanya birokratis tapi juga praktis. Satgas akan jadi jembatan antara kebijakan pusat dan realitas lokal, membantu koperasi desa bangkit dari keterpurukan pasca-pandemi.
+
+            Para rekrutan pendamping KDKMP akan menjalani pelatihan khusus yang komprehensif. Fokusnya pada literasi, pemahaman, dan sosialisasi sistem serta praktik berkoperasi modern. Materi mencakup manajemen keuangan koperasi, digitalisasi operasional, hingga pemasaran digital. Dengan bekal ini, pendamping diharapkan bisa edukasi masyarakat desa, sehingga koperasi berjalan lebih baik dan berkelanjutan. Bayangkan ribuan desa di mana warga paham simpan pinjam berbasis koperasi, produksi bersama, dan distribusi adil—ini resep mengurangi kemiskinan struktural. Pelatihan bukan formalitas, tapi investasi jangka panjang untuk kemandirian ekonomi pedesaan.
+
+            Sebagai puncak dukungan, KADIN mengembangkan aplikasi "Desapedia" untuk KDKMP. Saat ini, aplikasi ini dalam tahap uji coba di Kalimantan Timur, wilayah strategis dengan potensi desa digital tinggi. Desapedia dirancang sebagai platform layanan digital terintegrasi, mendukung aktivitas ekonomi masyarakat desa secara menyeluruh. Fitur unggulan termasuk toko sembako online, yang mudahkan akses kebutuhan pokok tanpa harus ke kota; serta layanan ojek online (motor dan mobil) untuk tingkatkan mobilitas dan logistik. Pengguna bisa pesan barang, bayar digital, dan lacak pengiriman real-time, mirip super app urban tapi disesuaikan desa.
+
+            Melalui Desapedia, KADIN harapkan tercipta ekosistem ekonomi desa modern, terintegrasi, dan mudah diakses. Ini bukan gimmick, tapi transformasi: koperasi desa jadi pusat transaksi digital, UMKM lokal terhubung pasar nasional, dan masyarakat nikmati kemudahan ala kota. Uji coba di Kaltim jadi pembuktian konsep, dengan rencana ekspansi nasional jika sukses. Integrasi dengan MBG juga potensial, di mana produk gizi UMKM bisa dijual via app ini.
+
+            Secara keseluruhan, Raden Tedy gambarkan optimisme KADIN terhadap MBG dan KDKMP sebagai pilar ekonomi inklusif. Dengan SSPG-SOP, Satgas, pelatihan, dan Desapedia, program ini bisa jadi game changer bagi UMKM dan koperasi. Tantangan seperti oknum dan inflasi bapokting harus diatasi kolaboratif antara pemerintah, KADIN, dan swasta. Di tengah target pertumbuhan ekonomi 5-6% tahun ini, inisiatif ini strategis untuk dorong IHSG dan stabilitas moneter. KADIN ajak semua pihak sinergi, agar desa berdaya dan UMKM berjaya—menuju Indonesia Emas 2045.
           </p>
 
-          <p className="leading-relaxed mb-6">
-            Kegiatan ini menghadirkan dua narasumber yang kompeten dan aktif dalam isu-isu demokrasi dan hukum, yaitu <strong>Faiz Naufal Alfarisi, S.H.</strong>, akademisi hukum dari Nalar Politik Kawula Indonesia, dan <strong>Juwita Tri Utami, S.H.</strong>, praktisi hukum dari LBH Dharma Loka Nusantara. Diskusi dipandu oleh moderator Inda Hudiria.
-          </p>
-
-          {/* Quote Block 1 */}
-          <blockquote className="border-l-4 border-primary bg-secondary/50 p-4 my-6 italic">
-            <p className="mb-2">
-              &quot;Revisi KUHAP harus menjadi prioritas untuk menjamin proses hukum yang adil, transparan, dan bebas dari penyalahgunaan wewenang. KUHAP yang baru juga harus merespons tantangan era digital serta prinsip keadilan restoratif.&quot;
-            </p>
-            <cite className="text-sm text-muted-foreground not-italic">— Faiz Naufal Alfarisi, S.H.</cite>
-          </blockquote>
-
-          <p className="leading-relaxed mb-6">
-            Dalam diskusi tersebut, Faiz Naufal menyoroti pentingnya revisi KUHAP (Kitab Undang-Undang Hukum Acara Pidana) sebagai upaya pembaruan hukum acara pidana yang masih menyimpan berbagai persoalan mendasar. Ia menekankan bahwa KUHAP saat ini belum mampu secara maksimal menjamin prinsip keadilan prosedural dan perlindungan terhadap hak tersangka, korban, serta saksi.
-          </p>
-
-          <h2 className="text-xl font-bold mt-8 mb-4">Urgensi Pembaruan RUU Polri</h2>
-
-          <p className="leading-relaxed mb-6">
-            Sementara itu, Juwita Tri Utami menyoroti urgensi pembaruan RUU Polri guna membentuk institusi kepolisian yang lebih demokratis dan akuntabel. Ia menekankan pentingnya pembatasan kewenangan kepolisian yang selama ini terlalu luas tanpa pengawasan yang memadai.
-          </p>
-
-          {/* Quote Block 2 */}
-          <blockquote className="border-l-4 border-accent bg-secondary/50 p-4 my-6 italic">
-            <p className="mb-2">
-              &quot;Reformasi RUU Polri perlu dilakukan untuk menciptakan mekanisme pengawasan eksternal yang independen serta memperkuat fungsi pelayanan masyarakat. Budaya kekerasan dan impunitas harus diakhiri dengan langkah struktural dan kultural yang nyata.&quot;
-            </p>
-            <cite className="text-sm text-muted-foreground not-italic">— Juwita Tri Utami, S.H.</cite>
-          </blockquote>
-
-          <h2 className="text-xl font-bold mt-8 mb-4">Dukungan Penuh dari IDE</h2>
-
-          <p className="leading-relaxed mb-6">
-            Ketua IDE, <strong>Herry Ahmad Gunawan</strong>, dalam pernyataannya menyampaikan dukungan penuh terhadap agenda revisi KUHAP dan RUU Polri sebagai langkah strategis menuju sistem hukum yang lebih adil, demokratis, dan menjunjung tinggi hak asasi manusia.
-          </p>
-
-          <blockquote className="border-l-4 border-primary bg-secondary/50 p-4 my-6 italic">
-            <p className="mb-2">
-              &quot;IDE mendukung sepenuhnya upaya pemerintah dan DPR dalam membahas RUU Polri dan revisi KUHAP. Ini adalah momentum penting untuk membangun sistem peradilan pidana yang berkeadilan dan akuntabel. Reformasi ini akan memperkuat supremasi hukum sekaligus kepercayaan publik terhadap aparat penegak hukum.&quot;
-            </p>
-            <cite className="text-sm text-muted-foreground not-italic">— Herry Ahmad Gunawan, Ketua IDE</cite>
-          </blockquote>
-
-          <p className="leading-relaxed mb-6">
-            Diskusi ini dihadiri oleh berbagai elemen masyarakat, termasuk mahasiswa dari Forum Mahasiswa Merdeka yang turut memberikan pandangan dan masukan. Suasana dialog berlangsung terbuka dan konstruktif, memperkaya perspektif publik terhadap arah pembaruan hukum nasional.
-          </p>
-
-          <p className="leading-relaxed mb-6">
-            IDE menegaskan bahwa reformasi KUHAP dan RUU Polri bukan semata perubahan teknis, melainkan bagian dari transformasi mendalam sistem hukum Indonesia menuju keadilan yang substantif, inklusif, dan modern.
-          </p>
-        </div>
-
-        {/* Tags */}
-        <div className="mt-8 pt-6 border-t border-border">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-sm font-medium text-muted-foreground">Tags:</span>
-            {["KUHAP", "RUU Polri", "Reformasi Hukum", "IDE", "Demokrasi", "HAM"].map((tag) => (
-              <span
-                key={tag}
-                className="inline-block bg-secondary text-secondary-foreground text-xs px-3 py-1 rounded-full hover:bg-muted transition-colors cursor-pointer"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
     </article>

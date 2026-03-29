@@ -113,15 +113,15 @@ export function Sidebar() {
         </div>
       </div>
 
-      {/* Advertisement Placeholder */}
-      <div className="bg-card rounded-lg shadow-sm overflow-hidden">
-        <div className="aspect-square bg-muted flex items-center justify-center">
-          <div className="text-center p-4">
-            <p className="text-sm text-muted-foreground">Iklan</p>
-            <p className="text-xs text-muted-foreground mt-1">300 x 300</p>
-          </div>
-        </div>
-      </div>
+      {/*/!* Advertisement Placeholder *!/*/}
+      {/*<div className="bg-card rounded-lg shadow-sm overflow-hidden">*/}
+      {/*  <div className="aspect-square bg-muted flex items-center justify-center">*/}
+      {/*    <div className="text-center p-4">*/}
+      {/*      <p className="text-sm text-muted-foreground">Iklan</p>*/}
+      {/*      <p className="text-xs text-muted-foreground mt-1">300 x 300</p>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
 
       {/* Social Media */}
       <div className="bg-card rounded-lg shadow-sm overflow-hidden">

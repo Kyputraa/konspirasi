@@ -99,7 +99,7 @@ export function Footer() {
       <div className="border-t border-background/10">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-background/60">
-            <p>© 2025 KonspirasiNews. Hak Cipta Dilindungi.</p>
+            <p>© 2026 KonspirasiNews. Hak Cipta Dilindungi.</p>
             <p>Anggota Dewan Pers Indonesia</p>
           </div>
         </div>
