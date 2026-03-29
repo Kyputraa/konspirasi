@@ -76,7 +76,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Berlangganan</h3>
             <p className="text-sm text-background/70 mb-4">
-              Dapatkan berita terbaru langsung di email Anda.
+              Dapatkan berita terbaru langsung di email Anda. 
             </p>
             <form className="space-y-3">
               <input
